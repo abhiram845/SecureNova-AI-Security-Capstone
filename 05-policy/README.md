@@ -58,3 +58,19 @@ Security controls should be reviewed periodically to ensure that the AI system c
 ## Conclusion
 
 The security policy establishes a governance framework covering access control, prompt security, data protection, tool authorization, monitoring, and incident response for the SecureNova AI system.
+
+## Top 5 Recommendations
+
+| # | Recommendation | Effort Estimate | Business Rationale |
+|---|---|---|---|
+| 1 | Strengthen Access Control and Least-Privilege Authorization | Medium | Reduces unauthorized access and prevents privileged actions from being performed by untrusted users or agents. |
+| 2 | Implement Prompt Injection Detection and Input Validation | Medium | Helps prevent malicious prompts from overriding trusted instructions and reduces the risk of AI manipulation. |
+| 3 | Secure RAG Data Sources and Retrieved Content | High | Protects against untrusted or poisoned data entering the AI workflow and reduces sensitive information exposure. |
+| 4 | Enforce Tool and MCP Authorization Controls | High | Prevents unauthorized or dangerous tool operations and limits the impact of compromised AI agents. |
+| 5 | Establish Continuous Security Logging and Monitoring | Medium | Enables early detection, investigation, and response to suspicious activity and security incidents. |
+
+### Recommendation Priorities
+
+- **Immediate:** Access control and prompt injection detection.
+- **High Priority:** RAG security and tool/MCP authorization.
+- **Continuous:** Security logging, monitoring, and periodic governance review.
